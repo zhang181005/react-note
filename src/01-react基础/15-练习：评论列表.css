@@ -1,0 +1,19 @@
+.app {
+  width: 300px;
+  border: 1px #999 solid;
+  padding: 10px;
+}
+.user {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.no-comment {
+  text-align: center;
+  margin-top: 30px;
+}
