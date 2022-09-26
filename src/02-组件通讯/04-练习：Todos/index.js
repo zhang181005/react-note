@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import './style/base.css'
 import './style/index.css'
 
@@ -10,11 +10,7 @@ import TodoFooter from './components/TodoFooter'
 
 class App extends Component {
   state = {
-    todoList: [
-      { id: 1, name: '吃饭', done: false },
-      { id: 2, name: '睡觉', done: true },
-      { id: 3, name: '打豆豆', done: false },
-    ],
+    todoList: [],
     type: 'all',
   }
 
@@ -90,7 +86,6 @@ class App extends Component {
   }
 
   toggleAll = () => {
-    console.log('toggleAll')
     this.setState({
       todoList: this.state.todoList.find((item) => !item.done)
         ? this.state.todoList.map((item) => {
@@ -107,6 +102,17 @@ class App extends Component {
       type,
     })
   }
+
+  componentDidMount() {
+    this.setState({
+      todoList: JSON.parse(localStorage.getItem('todos')) || [],
+    })
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem('todos', JSON.stringify(this.state.todoList))
+  }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<App />)

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 class App extends Component {
+  inputRef = React.createRef()
   render = () => {
     return (
       <div>
@@ -11,4 +12,5 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<App />)

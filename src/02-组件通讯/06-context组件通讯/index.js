@@ -14,8 +14,9 @@ class App extends Component {
     secret: '',
   }
   render = () => {
+    const { secret } = this.state
     return (
-      <Provider value={this.state}>
+      <Provider value={{ secret, changeSecret: this.changeSecret }}>
         <div>
           <h1>我是根组件</h1>
           <button onClick={this.mySecret}>我有一个秘密</button>
@@ -29,6 +30,12 @@ class App extends Component {
   mySecret = () => {
     this.setState({
       secret: '不告诉你们',
+    })
+  }
+
+  changeSecret = (secret) => {
+    this.setState({
+      secret,
     })
   }
 }
