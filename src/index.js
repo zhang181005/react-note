@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom/client'
 
 class App extends Component {
-  inputRef = React.createRef()
   render = () => {
     return (
       <div>
