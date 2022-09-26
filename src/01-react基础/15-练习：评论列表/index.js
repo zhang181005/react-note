@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDom from 'react-dom'
 
-import './15-练习：评论列表.css'
+import './index.css'
 
 class App extends Component {
   state = {
