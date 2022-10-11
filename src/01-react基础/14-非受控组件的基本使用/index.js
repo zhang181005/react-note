@@ -18,7 +18,7 @@ class App extends Component {
         <div>
           <h3>文本框</h3>
           姓名：
-          <input type="text" ref={this.txtRef} />
+          <input type='text' ref={this.txtRef} />
           <FormValidate ref={this.formRef}></FormValidate>
           <button onClick={this.clickFn}>获取值</button>
         </div>

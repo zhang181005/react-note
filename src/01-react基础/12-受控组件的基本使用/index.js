@@ -12,7 +12,7 @@ class App extends Component {
         <h1>受控组件</h1>
         {/* input值通过value属性控制 */}
         <input
-          type="text"
+          type='text'
           value={this.state.msg}
           onChange={this.handleChange}
         />

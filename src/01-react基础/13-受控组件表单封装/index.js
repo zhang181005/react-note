@@ -17,17 +17,17 @@ class App extends Component {
           <h3>文本框</h3>
           姓名：
           <input
-            type="text"
-            name="userName"
+            type='text'
+            name='userName'
             value={this.state.userName}
             onChange={this.handleChange}
           />
           <h3>文本域</h3>
           备注:{' '}
           <textarea
-            cols="30"
-            rows="10"
-            name="remark"
+            cols='30'
+            rows='10'
+            name='remark'
             value={this.state.remark}
             onChange={this.handleChange}
           ></textarea>
@@ -35,20 +35,20 @@ class App extends Component {
           选择城市：
           <select
             value={this.state.city}
-            name="city"
+            name='city'
             onChange={this.handleChange}
           >
-            <option value="1">济南</option>
-            <option value="2">北京</option>
-            <option value="3">青岛</option>
-            <option value="4">上海</option>
-            <option value="5">宁波</option>
+            <option value='1'>济南</option>
+            <option value='2'>北京</option>
+            <option value='3'>青岛</option>
+            <option value='4'>上海</option>
+            <option value='5'>宁波</option>
           </select>
           <h3>复选框</h3>
           <label>
             <input
-              type="checkbox"
-              name="eat"
+              type='checkbox'
+              name='eat'
               checked={this.state.eat}
               onChange={this.handleChange}
             />
