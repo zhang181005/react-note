@@ -37,7 +37,6 @@ const TodoItem = (props) => {
 
   return (
     <li
-      key={item.id}
       className={classNames({
         completed: item.done,
         editing: item.id === current.id,

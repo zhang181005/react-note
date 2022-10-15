@@ -1587,16 +1587,6 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@reduxjs/toolkit@^1.8.6":
-  version "1.8.6"
-  resolved "https://registry.npmmirror.com/@reduxjs/toolkit/-/toolkit-1.8.6.tgz#147fb7957befcdb75bc9c1230db63628e30e4332"
-  integrity sha512-4Ia/Loc6WLmdSOzi7k5ff7dLK8CgG2b8aqpLsCAJhazAzGdp//YBUSaj0ceW6a3kDBDNRrq5CRwyCS0wBiL1ig==
-  dependencies:
-    immer "^9.0.7"
-    redux "^4.1.2"
-    redux-thunk "^2.4.1"
-    reselect "^4.1.5"
-
 "@remix-run/router@1.0.2":
   version "1.0.2"
   resolved "https://registry.npmmirror.com/@remix-run/router/-/router-1.0.2.tgz#1c17eadb2fa77f80a796ad5ea9bf108e6993ef06"
@@ -3080,11 +3070,6 @@ cjs-module-lexer@^1.0.0:
   version "1.2.2"
   resolved "https://registry.npmmirror.com/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
-
-classname@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.npmmirror.com/classname/-/classname-0.0.0.tgz#43d171b484e354c7a293a5b78004df6852db20d6"
-  integrity sha512-kkhsspEJdUW+VhuvNzb2sQf0KbafDPfd36dB1qf03Uu42dWZwMQzaQuyNkaRr5ir0ZiAN0+TlH/EOOfwb/aaXg==
 
 classnames@^2.3.2:
   version "2.3.2"
@@ -7541,7 +7526,7 @@ redux-thunk@^2.4.1:
   resolved "https://registry.npmmirror.com/redux-thunk/-/redux-thunk-2.4.1.tgz#0dd8042cf47868f4b29699941de03c9301a75714"
   integrity sha512-OOYGNY5Jy2TWvTL1KgAlVy6dcx3siPJ1wTq741EPyUKfn6W6nChdICjZwCd0p8AZBs5kWpZlbkXW2nE/zjUa+Q==
 
-redux@^4.1.2:
+redux@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmmirror.com/redux/-/redux-4.2.0.tgz#46f10d6e29b6666df758780437651eeb2b969f13"
   integrity sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==
@@ -7645,11 +7630,6 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
-
-reselect@^4.1.5:
-  version "4.1.6"
-  resolved "https://registry.npmmirror.com/reselect/-/reselect-4.1.6.tgz#19ca2d3d0b35373a74dc1c98692cdaffb6602656"
-  integrity sha512-ZovIuXqto7elwnxyXbBtCPo9YFEr3uJqj2rRbcOOog1bmu2Ag85M4hixSwFWyaBMKXNgvPaJ9OSu9SkBPIeJHQ==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

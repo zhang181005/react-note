@@ -53,7 +53,7 @@ class App extends Component {
           <Route path="/home" element={<Home></Home>}></Route>
           <Route path="/my" element={<My></My>}></Route>
           <Route path="/setting" element={<Setting></Setting>}></Route>
-          <Route path="" element={<NotFound></NotFound>}></Route>
+          <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </Router>
     )
